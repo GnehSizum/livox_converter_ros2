@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>livox_converter</name>
+    <version>0.0.1</version>
+    <description>Livox Converter for ROS 2.</description>
+
+    <maintainer email="muzs@foxmail.com">muzs</maintainer>
+    <author email="muzs@foxmail.com">muzs</author>
+
+    <license>BSD</license>
+
+    <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+    <depend>laser_geometry</depend>
+    <depend>message_filters</depend>
+    <depend>rclcpp</depend>
+    <depend>rclcpp_components</depend>
+    <depend>sensor_msgs</depend>
+    <depend>tf2</depend>
+    <depend>tf2_ros</depend>
+    <depend>tf2_sensor_msgs</depend>
+    <depend>livox_ros_driver2</depend>
+
+    <exec_depend>launch</exec_depend>
+    <exec_depend>launch_ros</exec_depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_cmake_cppcheck</test_depend>
+    <test_depend>ament_cmake_cpplint</test_depend>
+    <test_depend>ament_cmake_flake8</test_depend>
+    <test_depend>ament_cmake_lint_cmake</test_depend>
+    <test_depend>ament_cmake_pep257</test_depend>
+    <test_depend>ament_cmake_uncrustify</test_depend>
+    <test_depend>ament_cmake_xmllint</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
